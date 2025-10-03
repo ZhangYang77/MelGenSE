@@ -20,7 +20,7 @@
         </header>
 
         <h4> Authors </h4>
-        <div style="font-size: medium;"> Wenbin Jiang, Fei Wen, and Kai Yu </div>
+        <div style="font-size: medium;"> Yang Zhang, Wenbin Jiang, Kaiying Wu, and Wen Zhang </div>
         <h4> Abstract </h4>
         <div style="font-size: medium;"> 
             Generative models for speech enhancement have garnered significant attention due to their ability to improve perceptual quality in adverse conditions. However, most existing methods operate in the frequency domain, which may limit their effectiveness in modeling speech information. To address this issue, we propose a novel generative speech enhancement method in the Mel-Spectrogram domain using conditional flow matching, called MelGenSE. Concretely, MelGenSE operates in the Mel-spectrogram domain by using conditional flow matching to learn the direct mapping from noisy to clean speech features and utilizes a neural vocoder for reconstructing high-fidelity time-domain waveforms from the enhanced mel-spectrogram. In addition, we study various neural network architectures to explore their impact on signal fidelity and speech intelligibility. We conducted experiments on the widely-used VCTK+DEMAND and DNS Challenge datasets. The results indicate that MelGenSE achieves competitive performance with state-of-the-art frequency domain methods, particularly in terms of DNSMOS evaluation metrics.        </div>
@@ -87,17 +87,17 @@
                 <td><audio controls=""><source src="samples/FlowSE/p232_176.wav"></audio></td>
                 <td><audio controls=""><source src="samples/FlowSE/p232_370.wav"></audio></td>
                 </tr>
-                <tr> <td> MelSenSE </td>
-                <td><audio controls=""><source src="samples/MelSenSE/p257_007.wav"></audio></td>
-                <td><audio controls=""><source src="samples/MelSenSE/p257_034.wav"></audio></td>
-                <td><audio controls=""><source src="samples/MelSenSE/p257_107.wav"></audio></td>
-                <td><audio controls=""><source src="samples/MelSenSE/p232_176.wav"></audio></td>
-                <td><audio controls=""><source src="samples/MelSenSE/p232_370.wav"></audio></td>
+                <tr> <td> MelGenSE </td>
+                <td><audio controls=""><source src="samples/MelGenSE/p257_007.wav"></audio></td>
+                <td><audio controls=""><source src="samples/MelGenSE/p257_034.wav"></audio></td>
+                <td><audio controls=""><source src="samples/MelGenSE/p257_107.wav"></audio></td>
+                <td><audio controls=""><source src="samples/MelGenSE/p232_176.wav"></audio></td>
+                <td><audio controls=""><source src="samples/MelGenSE/p232_370.wav"></audio></td>
                 </tr>
             </tbody>
         </table>
         <!-- <div style="font-size: medium;" class="color_fade"> Note: the audio samples of the original NyTT paper are not publicly available.</div> -->
-        <h4>Spectrogram of the samples in last column</h4>
+        <h4>Spectrogram of p232_364</h4>
         <img src="img/p232_364.png" class="container">
     </br>    
         <div class="row"> &nbsp; </div> <br/>
